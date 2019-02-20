@@ -25,6 +25,10 @@ ggHMM.sh -i <input_fasta> -o <output> -m <HMM_Dir> [options]
 	-h: Display this message and exit
 ```
 
+### Example
+```
+$./ggHMM.sh -i 
+
 ## Dependencies
 * [R](https://www.r-project.org/)
 * [HMMER](http://hmmer.org/)
