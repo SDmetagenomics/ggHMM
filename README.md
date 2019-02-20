@@ -27,7 +27,7 @@ ggHMM.sh -i <input_fasta> -o <output> -m <HMM_Dir> [options]
 
 ### Example
 ```
-$./ggHMM.sh -i 
+$./ggHMM.sh -i Example/HMM_Test.proteins.faa -o Example/Output -m Example/Test_HMMs/ 
 ```
 
 ## Dependencies
