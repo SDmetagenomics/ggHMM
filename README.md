@@ -24,3 +24,7 @@ ggHMM.sh -i <input_fasta> -o <output> -m <HMM_Dir> [options]
 	-t: Number of threads to use (Default: 6)
 	-h: Display this message and exit
 ```
+
+## Dependencies
+* [R](https://www.r-project.org/)
+* [HMMER](http://hmmer.org/)
