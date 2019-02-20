@@ -28,6 +28,7 @@ ggHMM.sh -i <input_fasta> -o <output> -m <HMM_Dir> [options]
 ### Example
 ```
 $./ggHMM.sh -i 
+```
 
 ## Dependencies
 * [R](https://www.r-project.org/)
