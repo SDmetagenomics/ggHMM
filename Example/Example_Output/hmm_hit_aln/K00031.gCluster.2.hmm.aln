@@ -1,0 +1,69 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HMMs//K00031.gCluster.2.hmm
+# target sequence database:        HMM_Test.proteins.faa
+# per-seq hits tabular output:     Example_Output2/hmm_hit_tables/K00031.gCluster.2.hmm.txt
+# model-specific thresholding:     NC cutoffs
+# number of worker threads:        6
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       K00031.gCluster.2  [M=492]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                               -----------
+    2.1e-08   32.7   0.1    2.3e-07   29.3   0.1    2.1  1  14_1009_09_40cm_scaffold_1915_9|Acidobacteria_gp5_AA69  
+
+
+Domain annotation for each sequence (and alignments):
+>> 14_1009_09_40cm_scaffold_1915_9|Acidobacteria_gp5_AA69  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.3   0.1   1.5e-11   2.3e-07     256     468 ..     214     425 ..     124     425 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 29.3 bits;  conditional E-value: 1.5e-11
+                                       K00031.gCluster.2 256 irgfAessfklalekk.lplylstknTilKkYdgrfkdifqeiyekeykkk.fea 308
+                                                             ++++ + ++++ale++   + l  k  i+K  +g f+d   e+  +e+ ++   +
+  14_1009_09_40cm_scaffold_1915_9|Acidobacteria_gp5_AA69 214 TKNLVRRAIQYALENNrRSVTLVHKGNIMKYTEGAFRDWGYELAREEFASRtVTE 268
+                                                             56778889999998762679999***************99999999997752445 PP
+
+                                       K00031.gCluster.2 309 agiw.............yehrLiDdmvaqalkseGgf.vwacknYdGDvqsdiva 349
+                                                             ++++              + r+ D m  q+l     + v+a+ n +GD  sd+ a
+  14_1009_09_40cm_scaffold_1915_9|Acidobacteria_gp5_AA69 269 EEVTtkydfkvpegkllIKDRIADSMLQQILTRPDEYdVIATPNLNGDYLSDACA 323
+                                                             5555777888888887799999*********99888879**************** PP
+
+                                       K00031.gCluster.2 350 qgfgslglmtsvLvtpdGktieaeaahGtvtrhyrehqkgketstNpiasifawt 404
+                                                                g lg+     +  dG     ea+hGt  +   +         Np + + +  
+  14_1009_09_40cm_scaffold_1915_9|Acidobacteria_gp5_AA69 324 AQVGGLGIAPGANIG-DG-CAVFEATHGTAPKYADKD------VINPGSVLLSGC 370
+                                                             *******98888776.57.6789******98765544......678877766655 PP
+
+                                       K00031.gCluster.2 405 rglehrakldeneellkfaekLekacietvesgkmtkdlallikgkrekylntee 459
+                                                               +e  +         + a+++e+a  +t+++ k+t dl  l++g+  + l+t+e
+  14_1009_09_40cm_scaffold_1915_9|Acidobacteria_gp5_AA69 371 MMFEYMG-------WRDVAKTIEDAFAKTIQQKKVTYDLERLMTGA--TKLKTSE 416
+                                                             5555555.......567899***********************877..679**** PP
+
+                                       K00031.gCluster.2 460 fldavaekl 468
+                                                             f  a+ e++
+  14_1009_09_40cm_scaffold_1915_9|Acidobacteria_gp5_AA69 417 FARAIVENM 425
+                                                             **9998875 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (492 nodes)
+Target sequences:                        15471  (4653730 residues searched)
+Passed MSV filter:                       229  (0.0148019); expected 309.4 (0.02)
+Passed bias filter:                      213  (0.0137677); expected 309.4 (0.02)
+Passed Vit filter:                        28  (0.00180984); expected 15.5 (0.001)
+Passed Fwd filter:                         8  (0.000517097); expected 0.2 (1e-05)
+Initial search space (Z):              15471  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.22u 0.01s 00:00:00.23 Elapsed: 00:00:00.06
+# Mc/sec: 38160.59
+//
+[ok]

@@ -1,0 +1,84 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HMMs//K00001.gCluster.4.hmm
+# target sequence database:        HMM_Test.proteins.faa
+# per-seq hits tabular output:     Example_Output2/hmm_hit_tables/K00001.gCluster.4.hmm.txt
+# model-specific thresholding:     NC cutoffs
+# number of worker threads:        6
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       K00001.gCluster.4  [M=383]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                                -----------
+   2.6e-114  381.9   0.1   2.9e-114  381.8   0.1    1.0  1  14_1009_09_40cm_scaffold_1261_16|Acidobacteria_gp5_AA69  
+
+
+Domain annotation for each sequence (and alignments):
+>> 14_1009_09_40cm_scaffold_1261_16|Acidobacteria_gp5_AA69  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  381.8   0.1  1.9e-118  2.9e-114       3     383 .]       3     387 ..       1     387 [. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 381.8 bits;  conditional E-value: 1.9e-118
+                                        K00001.gCluster.4   3 evfefrtpakivagagaleklgeelaelgakralvvtdkglekagllepvleal 56 
+                                                                ++f  p++i+ g g++++ +++l++l+a++ l+v d  + +a ++++++++l
+  14_1009_09_40cm_scaffold_1261_16|Acidobacteria_gp5_AA69   3 A-ARFDSPQTILTGGGSRKEAAALLSALHAHHSLIVVDPYFLTADFVTEIRSNL 55 
+                                                              4.7899************************************************ PP
+
+                                        K00001.gCluster.4  57 eaagievavfdeveadpseevveeaaelareekadvviglGGGSvlDvAKavav 110
+                                                              +++gi  +vf + ++dp++e v++ a+++re +ad+++++GGGS+lDvAK++ v
+  14_1009_09_40cm_scaffold_1261_16|Acidobacteria_gp5_AA69  56 DRNGIANDVFSDLQPDPTDENVRAGANRFREVGADSILAIGGGSALDVAKMIGV 109
+                                                              ****************************************************** PP
+
+                                        K00001.gCluster.4 111 llsegqsladylgveklkakllPliaiPTTaGTGSEvtkvavvtdkekavKmgv 164
+                                                                ++ + l+ + g ++++++ +Pl+a+PTTaGTGSE+tkvav+td++++vKm++
+  14_1009_09_40cm_scaffold_1261_16|Acidobacteria_gp5_AA69 110 ASTNAEPLSRFQGYHRIPNAWPPLVAMPTTAGTGSEATKVAVITDTDRNVKMMI 163
+                                                              ****************************************************** PP
+
+                                        K00001.gCluster.4 165 vspkllpdvAilDpeltlslppavtaatGiDAlthaiEaytsaaknplsdalAl 218
+                                                               + kl+p++Ai+D elt+s+p+ +ta  G+DAlth iEay+s+++npl+d +Al
+  14_1009_09_40cm_scaffold_1261_16|Acidobacteria_gp5_AA69 164 LDAKLMPAAAIVDYELTMSMPKPLTAHVGVDALTHGIEAYVSRKANPLTDPVAL 217
+                                                              ****************************************************** PP
+
+                                        K00001.gCluster.4 219 ealelisenLlkaledgedreareamalaallaGiafanasvalvHalahplga 272
+                                                              + +++i++nL+ a+ d+  + aream++aal+ G+af+n+sv+lvH++++plg 
+  14_1009_09_40cm_scaffold_1261_16|Acidobacteria_gp5_AA69 218 SCIRTIHANLRMAWADPGHAPAREAMSVAALQGGLAFTNSSVCLVHGMSRPLGL 271
+                                                              ****************************************************** PP
+
+                                        K00001.gCluster.4 273 vfhvphGlsnalllpavlefnleaaaekyaelarllagkeag.saeeradalie 325
+                                                              vf++phGlsn++llp+v++f  +  +++y+e+ar++++++a+ s+e++++al +
+  14_1009_09_40cm_scaffold_1261_16|Acidobacteria_gp5_AA69 272 VFRLPHGLSNSVLLPTVTRFSWPGSKSRYGEVARAIDIASAKdSDESACEALSD 325
+                                                              ****************************************99899999****** PP
+
+                                        K00001.gCluster.4 326 evrelleelglpttlrevg.veeael....ekvaedaledgslvnnprelseed 374
+                                                               +++l ++l++p +lre+   + +++    +k+a+dale+gs +nnp ++   +
+  14_1009_09_40cm_scaffold_1261_16|Acidobacteria_gp5_AA69 326 WLDQLNTDLRVP-RLRECCgGDVEQFraalPKMAADALESGSPQNNPIVPAASQ 378
+                                                              ************.88886434444444444************************ PP
+
+                                        K00001.gCluster.4 375 ileileaay 383
+                                                              i+e+ e a+
+  14_1009_09_40cm_scaffold_1261_16|Acidobacteria_gp5_AA69 379 IMELFEVAW 387
+                                                              ******999 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (383 nodes)
+Target sequences:                        15471  (4653730 residues searched)
+Passed MSV filter:                       566  (0.0365846); expected 309.4 (0.02)
+Passed bias filter:                      364  (0.0235279); expected 309.4 (0.02)
+Passed Vit filter:                        32  (0.00206839); expected 15.5 (0.001)
+Passed Fwd filter:                         4  (0.000258548); expected 0.2 (1e-05)
+Initial search space (Z):              15471  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.16u 0.01s 00:00:00.17 Elapsed: 00:00:00.04
+# Mc/sec: 44559.46
+//
+[ok]

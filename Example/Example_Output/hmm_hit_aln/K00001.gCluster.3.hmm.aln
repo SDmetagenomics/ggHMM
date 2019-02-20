@@ -1,0 +1,126 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HMMs//K00001.gCluster.3.hmm
+# target sequence database:        HMM_Test.proteins.faa
+# per-seq hits tabular output:     Example_Output2/hmm_hit_tables/K00001.gCluster.3.hmm.txt
+# model-specific thresholding:     NC cutoffs
+# number of worker threads:        6
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       K00001.gCluster.3  [M=397]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                          -----------
+   1.9e-101  339.7   0.0   2.1e-101  339.6   0.0    1.0  1  14_0929_02_40cm_scaffold_28_65|Rokubacteria_AR20   
+    5.1e-94  315.3   0.0    5.6e-94  315.2   0.0    1.0  1  14_0929_02_40cm_scaffold_1458_2|Rokubacteria_AR20  
+    1.2e-43  149.4   0.2    3.9e-21   75.3   0.0    2.0  0  14_0929_02_40cm_scaffold_138_25|Rokubacteria_AR20  
+
+
+Domain annotation for each sequence (and alignments):
+>> 14_0929_02_40cm_scaffold_28_65|Rokubacteria_AR20  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  339.6   0.0  4.2e-105  2.1e-101      24     394 ..       4     365 ..       1     367 [. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 339.6 bits;  conditional E-value: 4.2e-105
+                                 K00001.gCluster.3  24 tckaavawgpgeplvieevevdppqkmevrvkilatslchtdlsawkgkaeaerafprilg 84 
+                                                       ++ aav++++++plv+e+vev  p  +ev v+ +a  +ch+dl++++g++  ++  p +lg
+  14_0929_02_40cm_scaffold_28_65|Rokubacteria_AR20   4 QATAAVLYQVKQPLVVEDVEVLEPGTHEVLVRWVANGVCHSDLHVITGDY--PHPLPVVLG 62 
+                                                       5689*********************************************9..579****** PP
+
+                                 K00001.gCluster.3  85 heaagiVesvGegVtdlkeGDhVvpiFngecgeCrvCkseksnlCeklrvdprksvmasDg 145
+                                                       heaagiVe vG  V+ +k+GDhV + ++  cg+C +C  ++  lC+ lr +  +  m  Dg
+  14_0929_02_40cm_scaffold_28_65|Rokubacteria_AR20  63 HEAAGIVEKVGAAVESVKPGDHVCSSYIPSCGKCGYCIGGQPTLCA-LRDK-PRWFM-LDG 120
+                                                       *********************************************9.5545.45566.5** PP
+
+                                 K00001.gCluster.3 146 ktrfsvkdkgkpiyhflntstfseytvvdsacvvkidpeaplekvclLscgvstglgAawn 206
+                                                       + rf+    g+ ++hfl++s +++  vv ++ v+ + + aple vcl+scgv +g g +wn
+  14_0929_02_40cm_scaffold_28_65|Rokubacteria_AR20 121 TPRFRK--GGQGLHHFLQVSGYATRSVVLEEGVIPVRKDAPLEVVCLVSCGVLAGAGPVWN 179
+                                                       *****9..79*************************************************** PP
+
+                                 K00001.gCluster.3 207 vakvkkgstvavfGlGavglavaegArlrGasriigvdinpekfekakelGitefinpkdl 267
+                                                       +akv +g +vavfG G+vgl  ++ Arl Ga++ii+vd+ p+k+e a+e+G++++++    
+  14_0929_02_40cm_scaffold_28_65|Rokubacteria_AR20 180 RAKVPPGASVAVFGCGGVGLNTIQAARLVGAAKIIAVDVLPKKLEWAQEFGASHVVDA-SR 239
+                                                       *********************************************************4.44 PP
+
+                                 K00001.gCluster.3 268 kkpvqevireltnG.gvdysfecaGnldvlreallsthdGwgltvllgihktpkllplhpm 327
+                                                       ++pv  +++ +++G gvd +fe++G   ++++allsth+G g++v++gi +  ++l++ pm
+  14_0929_02_40cm_scaffold_28_65|Rokubacteria_AR20 240 EDPVA-RVQAIAGGgGVDFAFEVVGTQRTIEQALLSTHRG-GMAVVIGISPAGTRLSIDPM 298
+                                                       56665.568888665*************************.******************** PP
+
+                                 K00001.gCluster.3 328 elldgrtikgsvFGgfkpksqLpslvekymngevkldefithelpfedinkAfqlleegks 388
+                                                        l+++r ++gs FG  ++++++p l++  m+g+ +l+e+i+++lp+ +in+Af+ll++g++
+  14_0929_02_40cm_scaffold_28_65|Rokubacteria_AR20 299 LLVQQRILTGSSFGAGHQRTDVPMLIDLFMDGKYRLRELISRRLPLGEINHAFDLLQQGEV 359
+                                                       ************************************************************* PP
+
+                                 K00001.gCluster.3 389 lrcvlh 394
+                                                        r+v+ 
+  14_0929_02_40cm_scaffold_28_65|Rokubacteria_AR20 360 KRSVIA 365
+                                                       ***996 PP
+
+>> 14_0929_02_40cm_scaffold_1458_2|Rokubacteria_AR20  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  315.2   0.0   1.1e-97   5.6e-94      26     394 ..       2     362 ..       1     364 [. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 315.2 bits;  conditional E-value: 1.1e-97
+                                  K00001.gCluster.3  26 kaavawgpgeplvieevevdppqkmevrvkilatslchtdlsawkgkaeaerafprilgh 85 
+                                                        kaav+++++ pl + +ve + pq++e rv+++at +ch+d ++++g+ +     p +lgh
+  14_0929_02_40cm_scaffold_1458_2|Rokubacteria_AR20   2 KAAVLYKANTPLDVVDVEQQGPQAGEARVRVMATGVCHSDWHIINGDWTL--PLPMVLGH 59 
+                                                        89**********************************************75..99****** PP
+
+                                  K00001.gCluster.3  86 eaagiVesvGegVtdlkeGDhVvpiFngecgeCrvCkseksnlCeklrvdprksvmasDg 145
+                                                        eaag+Ve+vG gV++++ GDh++  F   cg+C +C+s++s lCe +     + vm  Dg
+  14_0929_02_40cm_scaffold_1458_2|Rokubacteria_AR20  60 EAAGVVEEVGPGVSNVRRGDHIIFSFRPHCGRCFYCSSGRSILCEGYTS--PRFVML-DG 116
+                                                        *********************************************7754..588887.** PP
+
+                                  K00001.gCluster.3 146 ktrfsvkdkgkpiyhflntstfseytvvdsacvvkidpeaplekvclLscgvstglgAaw 205
+                                                        + r +   +g+ i  +   +tf+e +v  ++ +v i + +p  +++l+ c+v tg+gA+ 
+  14_0929_02_40cm_scaffold_1458_2|Rokubacteria_AR20 117 THRLRR--NGQDINQMARLGTFAESVVCPAEMLVPIAKDMPWPQAALIGCAVPTGVGAVT 174
+                                                        ****99..7*************************************************** PP
+
+                                  K00001.gCluster.3 206 nvakvkkgstvavfGlGavglavaegArlrGasriigvdinpekfekakelGitefinpk 265
+                                                          akv++g +v+v+G G+vgl v++gArl+Ga  ii++d+ ++k++ a+e+G+t++ n k
+  14_0929_02_40cm_scaffold_1458_2|Rokubacteria_AR20 175 RCAKVEAGASVLVIGCGGVGLNVVQGARLAGARTIIACDLLENKLALAREFGATDTWNAK 234
+                                                        **********************************************************77 PP
+
+                                  K00001.gCluster.3 266 dlkkpvqevireltnG.gvdysfecaGnldvlreallsthdGwgltvllgihktpkllpl 324
+                                                        +   +v e++r+lt+G g+dy+f+ +G+  +  + l +++ G g++v++g++++  + p+
+  14_0929_02_40cm_scaffold_1458_2|Rokubacteria_AR20 235 E--GDVAERVRKLTGGrGADYAFDAIGSEATTLQILDAIRPG-GTAVIVGMAPMAARAPI 291
+                                                        6..89***********************99999999888888.***************** PP
+
+                                  K00001.gCluster.3 325 hpmel.ldgrtikgsvFGgfkpksqLpslvekymngevkldefithelpfedinkAfqll 383
+                                                         p ++ l++++++g+++G+++p  + p+lv+ y +g +kld++i++++ +++in+ f+ll
+  14_0929_02_40cm_scaffold_1458_2|Rokubacteria_AR20 292 TPYTMaLQEKSLRGTLYGSVRPTVDFPQLVQLYLDGRLKLDQLISRTYTLAEINQGFELL 351
+                                                        **99989***************************************************** PP
+
+                                  K00001.gCluster.3 384 eegkslrcvlh 394
+                                                        ++g++ r v+ 
+  14_0929_02_40cm_scaffold_1458_2|Rokubacteria_AR20 352 RTGQVARGVVV 362
+                                                        *******9985 PP
+
+>> 14_0929_02_40cm_scaffold_138_25|Rokubacteria_AR20  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (397 nodes)
+Target sequences:                        15471  (4653730 residues searched)
+Passed MSV filter:                       517  (0.0334174); expected 309.4 (0.02)
+Passed bias filter:                      488  (0.0315429); expected 309.4 (0.02)
+Passed Vit filter:                       134  (0.00866137); expected 15.5 (0.001)
+Passed Fwd filter:                        62  (0.0040075); expected 0.2 (1e-05)
+Initial search space (Z):              15471  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.61u 0.02s 00:00:00.63 Elapsed: 00:00:00.12
+# Mc/sec: 15396.09
+//
+[ok]

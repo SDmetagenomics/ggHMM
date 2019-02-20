@@ -1,0 +1,17 @@
+#                                                                                                  --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                                           accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                                   ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+14_1009_09_40cm_scaffold_1915_10|Acidobacteria_gp5_AA69 -          K00016.gCluster.7    -            3.9e-55  187.1   2.3   4.7e-55  186.8   2.3   1.0   1   0   0   1   1   1   1 -
+14_0919_02_20cm_scaffold_13_25|Gemmatimonadetes_AG3     -          K00016.gCluster.7    -            5.8e-55  186.5   0.6   6.7e-55  186.3   0.6   1.0   1   0   0   1   1   1   1 -
+14_0919_02_20cm_scaffold_60_3|Gemmatimonadetes_AG3      -          K00016.gCluster.7    -            1.1e-54  185.6   0.4   1.3e-54  185.4   0.4   1.0   1   0   0   1   1   1   1 -
+14_0929_02_40cm_scaffold_138_3|Rokubacteria_AR20        -          K00016.gCluster.7    -            4.7e-51  173.7   0.5     1e-32  113.5   0.2   2.0   1   1   1   2   2   0   0 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      HMMs//K00016.gCluster.7.hmm
+# Target file:     HMM_Test.proteins.faa
+# Option settings: hmmsearch --tblout Example_Output2/hmm_hit_tables/K00016.gCluster.7.hmm.txt --cut_nc --cpu 6 HMMs//K00016.gCluster.7.hmm HMM_Test.proteins.faa 
+# Current dir:     /Users/Spencer/Dropbox/Informatics/Scripts/ggHMM
+# Date:            Tue Feb 19 23:10:38 2019
+# [ok]

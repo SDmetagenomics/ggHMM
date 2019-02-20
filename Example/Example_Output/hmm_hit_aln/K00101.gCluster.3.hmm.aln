@@ -1,0 +1,161 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HMMs//K00101.gCluster.3.hmm
+# target sequence database:        HMM_Test.proteins.faa
+# per-seq hits tabular output:     Example_Output2/hmm_hit_tables/K00101.gCluster.3.hmm.txt
+# model-specific thresholding:     NC cutoffs
+# number of worker threads:        6
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       K00101.gCluster.3  [M=405]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                               -----------
+    1.9e-91  306.4   4.1    7.5e-52  176.0   3.6    2.0  2  14_0929_02_40cm_scaffold_82_30|Rokubacteria_AR20        
+    3.3e-91  305.6   0.1    1.6e-51  174.9   0.1    2.0  2  14_1009_09_40cm_scaffold_1437_3|Acidobacteria_gp5_AA69  
+    2.4e-87  292.9   2.3    2.2e-48  164.6   4.2    2.0  2  14_0929_02_40cm_scaffold_5_145|Rokubacteria_AR20        
+
+
+Domain annotation for each sequence (and alignments):
+>> 14_0929_02_40cm_scaffold_82_30|Rokubacteria_AR20  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  129.1   0.0   2.5e-41   1.3e-37      25     201 ..       8     185 ..       2     189 .. 0.97
+   2 !  176.0   3.6   1.5e-55   7.5e-52     254     402 ..     192     340 ..     186     342 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 129.1 bits;  conditional E-value: 2.5e-41
+                                 K00101.gCluster.3  25 kvlsldDfeaaArrrLprpifgyvagaaedeaslrenreafdeyafvprvlrdvsqrsqat 85 
+                                                       k+ +l+ + +aAr +L++  ++y+ g+ae+e++l++nr a d++af+prvlrdvs+ +++ 
+  14_0929_02_40cm_scaffold_82_30|Rokubacteria_AR20   8 KFSTLHEIVRAARNNLAPGPWDYLMGGAETETTLKRNRLALDSIAFRPRVLRDVSKIDTTS 68 
+                                                       56789******************************************************** PP
+
+                                 K00101.gCluster.3  86 elfgkryaaPfgiapmGiaalvayrgdlvlaraAaaagipailsgsslipleevaaaapdt 146
+                                                       +lfg+ ++ P+++ap+G+   +a  g  + ara+++ g+p +ls+     le vaaaa+++
+  14_0929_02_40cm_scaffold_82_30|Rokubacteria_AR20  69 TLFGRPVRLPLMLAPIGSIETFADGGGATAARASEEFGVPQMLSSVCSPGLEAVAAAANNF 129
+                                                       ********************************************************99998 PP
+
+                                 K00101.gCluster.3 147 .wfqaYlpgdkeridallervaaagvktLvvtvDtpvsanrennvRagfstPlrps 201
+                                                        +fq+Y+ gd++ +d  ++r+ + g+ ++ +tvDt++ ++re++  + f  P r  
+  14_0929_02_40cm_scaffold_82_30|Rokubacteria_AR20 130 rIFQLYVRGDDAWVDDWVKRAVDGGYAAFCLTVDTATYSRRERDLARRFVKPWRTR 185
+                                                       8***************************************************9875 PP
+
+  == domain 2  score: 176.0 bits;  conditional E-value: 1.5e-55
+                                 K00101.gCluster.3 254 rdhlsWehieairkrwkgelviKGilsveDallAreaGadgiivSnHGGRqldgavsplev 314
+                                                       ++ lsW+h+++ +++ + +lv+KGi ++eDa+lA e+G++g++vSnHGGRqld+   ++ev
+  14_0929_02_40cm_scaffold_82_30|Rokubacteria_AR20 192 QAGLSWDHVKRFKDTHSIPLVLKGIATAEDATLAVEHGVEGVYVSNHGGRQLDHGRGAIEV 252
+                                                       5679********************************************************* PP
+
+                                 K00101.gCluster.3 315 lpeivaavgeelevmiDsGirrGsdvlkalalGarmvfvGRpfnyaaavageaGvahaiel 375
+                                                       lpe+v++vg + +v++D+G++rG+dv+kalalGa+ v +GR    ++a+ag+aG+ +++el
+  14_0929_02_40cm_scaffold_82_30|Rokubacteria_AR20 253 LPEVVRTVGGRATVLVDGGFMRGTDVVKALALGAQSVGIGRLACCGLAAAGQAGLVRVLEL 313
+                                                       ************************************************************* PP
+
+                                 K00101.gCluster.3 376 lreeidrnmallGvtsleelsedllrr 402
+                                                       l++ei+  m llGv +l++l++++l+ 
+  14_0929_02_40cm_scaffold_82_30|Rokubacteria_AR20 314 LEDEIRIAMGLLGVDRLAALDPSHLHP 340
+                                                       **********************99975 PP
+
+>> 14_1009_09_40cm_scaffold_1437_3|Acidobacteria_gp5_AA69  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  128.7   0.0   3.3e-41   1.7e-37      24     192 ..      50     219 ..      37     227 .. 0.95
+   2 !  174.9   0.1   3.2e-55   1.6e-51     255     402 ..     260     407 ..     245     409 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 128.7 bits;  conditional E-value: 3.3e-41
+                                       K00101.gCluster.3  24 rkvlsldDfeaaArrrLprpifgyvagaaedeaslrenreafdeyafvprvlrdv 78 
+                                                             +++l++ Dfe+aA+r+  +  ++y+a +++d+a+lr+nre+f++++++pr l + 
+  14_1009_09_40cm_scaffold_1437_3|Acidobacteria_gp5_AA69  50 ANALNVFDFEEAAHRKVHQGHWAYMASGVDDDATLRANREIFKHVQLRPRRLHNA 104
+                                                             6889*************************************************** PP
+
+                                       K00101.gCluster.3  79 sqrsqatelfgkryaaPfgiapmGiaalvayrgdlvlaraAaaagipailsgssl 133
+                                                                ++++elfg+ y++P+++ p+G ++ + ++g++ +araA+a g   +ls++  
+  14_1009_09_40cm_scaffold_1437_3|Acidobacteria_gp5_AA69 105 TLVDTRVELFGTVYNSPIFLCPTGGERGFYMDGEVSVARAARARGTLQCLSTMTS 159
+                                                             ******************************************************* PP
+
+                                       K00101.gCluster.3 134 ipleevaaaap.dtwfqaYlpgdkeridallervaaagvktLvvtvDtpvsanre 187
+                                                             +p+eev +a    +w+q+Y p++ e+ ++ll+rv+aag + +++tvD ++  n e
+  14_1009_09_40cm_scaffold_1437_3|Acidobacteria_gp5_AA69 160 TPIEEVNKALGrPVWYQLYAPSKWEACEQLLRRVEAAGSTVVLLTVDNTTGRNSE 214
+                                                             ******99865157***************************************99 PP
+
+                                       K00101.gCluster.3 188 nnvRa 192
+                                                                R+
+  14_1009_09_40cm_scaffold_1437_3|Acidobacteria_gp5_AA69 215 TYLRS 219
+                                                             99986 PP
+
+  == domain 2  score: 174.9 bits;  conditional E-value: 3.2e-55
+                                       K00101.gCluster.3 255 dhlsWehieairkrwkgelviKGilsveDallAreaGadgiivSnHGGRqldgav 309
+                                                              +++We ++++rk w+g+lviKGi + eDa+lA e+G dgi+vSnHGGR  ++  
+  14_1009_09_40cm_scaffold_1437_3|Acidobacteria_gp5_AA69 260 PAMDWEFVDQLRKFWRGKLVIKGIDTHEDARLAIEHGFDGILVSNHGGRATETLR 314
+                                                             679**************************************************** PP
+
+                                       K00101.gCluster.3 310 splevlpeivaavgeelevmiDsGirrGsdvlkalalGarmvfvGRpfnyaaava 364
+                                                             s+le+lpe++ ++g++++v++D+G+rrG+d+ kalalGa++v vGRpf++++ + 
+  14_1009_09_40cm_scaffold_1437_3|Acidobacteria_gp5_AA69 315 STLEALPEVAGEAGNRVPVFVDGGFRRGTDIFKALALGAKAVGVGRPFLWGLGAF 369
+                                                             ******************************************************* PP
+
+                                       K00101.gCluster.3 365 geaGvahaiellreeidrnmallGvtsleelsedllrr 402
+                                                             g+ Gv++++e+l+ e++  m   G +++++++++++ +
+  14_1009_09_40cm_scaffold_1437_3|Acidobacteria_gp5_AA69 370 GQPGVDRVLEILQGELKLVMGNCGTRTVADINRSYIAT 407
+                                                             *********************************99875 PP
+
+>> 14_0929_02_40cm_scaffold_5_145|Rokubacteria_AR20  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  124.8   0.0   5.4e-40   2.8e-36      25     193 ..       9     178 ..       2     192 .. 0.94
+   2 !  164.6   4.2   4.3e-52   2.2e-48     254     401 ..     199     346 ..     186     349 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 124.8 bits;  conditional E-value: 5.4e-40
+                                 K00101.gCluster.3  25 kvlsldDfeaaArrrLprpifgyvagaaedeaslrenreafdeyafvprvlrdvsqrsqat 85 
+                                                       ++++l  +++aAr rLpr+++++ +g+ae+e++lr+nr+  d++a+ + +l+dv + +++t
+  14_0929_02_40cm_scaffold_5_145|Rokubacteria_AR20   9 RFVTLPEIRRAARERLPREVWNFGDGGAETETTLRRNRRHLDRLAIQQNILVDVRTIDLRT 69 
+                                                       67788999***************************************************** PP
+
+                                 K00101.gCluster.3  86 elfgkryaaPfgiapmGiaalvayrgdlvlaraAaaagipailsgsslipleevaaaapdt 146
+                                                       +l+g   a P+ +apmG   l++++gd+ +ar A +a+    lsg+   p+eeva+a  + 
+  14_0929_02_40cm_scaffold_5_145|Rokubacteria_AR20  70 SLLGVPLAWPVAVAPMGGLVLFHPEGDVEMARGAGKADTLQWLSGATGWPVEEVARAGMAP 130
+                                                       *******************************************************987654 PP
+
+                                 K00101.gCluster.3 147 .wfqaYlpgdkeridallervaaagvktLvvtvDtpvsanrennvRag 193
+                                                         fq+Y  gd+  +  ll+rv+a g+ ++ +tvD++  ++re+++ a 
+  14_0929_02_40cm_scaffold_5_145|Rokubacteria_AR20 131 qMFQLYHHGDRGWVGDLLARVEASGYLAVALTVDVQLYGRRERDILAR 178
+                                                       49****************************************998654 PP
+
+  == domain 2  score: 164.6 bits;  conditional E-value: 4.3e-52
+                                 K00101.gCluster.3 254 rdhlsWehieairkrwkgelviKGilsveDallAreaGadgiivSnHGGRqldgavsplev 314
+                                                       ++ l+W+++e++ k++k ++ +KGi++v+Da++A ++G+  i vSnHGGRqld++ s++++
+  14_0929_02_40cm_scaffold_5_145|Rokubacteria_AR20 199 QARLTWDDVEWLLKTTKLPVGLKGIMTVRDARRAVDMGVRLIWVSNHGGRQLDQTQSTIDA 259
+                                                       678********************************************************** PP
+
+                                 K00101.gCluster.3 315 lpeivaavgeelevmiDsGirrGsdvlkalalGarmvfvGRpfnyaaavageaGvahaiel 375
+                                                       lp iv+avg++ +v++D+G+ rG+dv+k la Ga++v+vGRp ++++a+ g+aGva+a e+
+  14_0929_02_40cm_scaffold_5_145|Rokubacteria_AR20 260 LPPIVDAVGDRADVVVDGGFARGTDVVKGLARGAKVVAVGRPALWGLAADGAAGVARAFEI 320
+                                                       ************************************************************* PP
+
+                                 K00101.gCluster.3 376 lreeidrnmallGvtsleelsedllr 401
+                                                       lree++++m l G t++++l++dl+ 
+  14_0929_02_40cm_scaffold_5_145|Rokubacteria_AR20 321 LREEVRTTMGLAGRTRIADLTRDLIF 346
+                                                       *********************99986 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (405 nodes)
+Target sequences:                        15471  (4653730 residues searched)
+Passed MSV filter:                       570  (0.0368431); expected 309.4 (0.02)
+Passed bias filter:                      364  (0.0235279); expected 309.4 (0.02)
+Passed Vit filter:                        48  (0.00310258); expected 15.5 (0.001)
+Passed Fwd filter:                        17  (0.00109883); expected 0.2 (1e-05)
+Initial search space (Z):              15471  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.26u 0.01s 00:00:00.27 Elapsed: 00:00:00.05
+# Mc/sec: 37695.21
+//
+[ok]
